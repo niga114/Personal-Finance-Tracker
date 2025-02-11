@@ -1,0 +1,61 @@
+.container {
+  text-align:center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh; /* Prevents unwanted cutoff */
+  padding: 20px; /* Ensures spacing */
+}
+
+form {
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-form {
+  text-align:center;
+  display: grid;
+  align-self: center;
+  max-width: 300px;
+  padding: 20px;
+  background-color: #e6ccff; /* Light purple background */
+  border-radius: 4px;
+}
+
+.login-form h2 {
+  text-align: center;
+  color: #4b0082; /* Dark purple */
+}
+
+.form-group {
+  text-align:center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #6a0dad; /* Medium purple */
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #8a2be2; /* Bright purple */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #6a0dad; /* Medium purple */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4b0082; /* Darker purple */
+}
